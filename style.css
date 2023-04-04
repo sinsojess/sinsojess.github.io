@@ -1,0 +1,291 @@
+*
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #fafafa;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #1a58bd;
+    padding: 40px;
+    width: 100%;
+    height: 20vh;
+  }
+  
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header img:hover {
+    transform: rotate(360deg);
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    text-align: center;
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header h1:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  }
+
+table {
+	width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+table th,
+table td {
+padding: 10px;
+text-align: center;
+border: 50px solid #ccc;
+}
+
+table th {
+background-color: #333;
+color: #fff;
+}
+
+table td img {
+max-width: 150px;
+height: auto;
+width: auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    animation-name: btnAnim;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes btnAnim {
+    from {background-color: #333;}
+    to {background-color: #444444;}
+  }
+  
+
+footer {
+margin-top: 2px;
+background-color: #ccc;
+color: #333;
+padding: 20px;
+text-align: center;
+position: relative;
+bottom: 0;
+width: 100%;
+height: 20px;
+}
+
+footer p {
+margin: 0;
+padding: 0;
+font-size: 14px;
+}
+
+/* Gradients */
+main {
+background-image: linear-gradient(to bottom right, #f7b733, #393E46);
+padding-bottom: 100px;
+}
+
+
+
+/* Animation */
+table td img {
+transition: all 0.2s ease-in-out;
+}
+
+table td img:hover {
+transform: scale(1.1);
+}body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: flex;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+header {
+    background-color: #393E46;
+    padding: 40px;
+    width: 100%;
+    height: 20vh;
+  }
+
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+
+  header img:hover {
+    transform: rotate(360deg);
+  }
+
+  header h1 {
+    font-size: 4rem;
+    text-align: center;
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  header h1:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+table th,
+table td {
+padding: 10px;
+text-align: center;
+border: 1px solid #ccc;
+}
+
+table th {
+background-color: #333;
+color: #fff;
+}
+
+table td img {
+max-width: 150px;
+height: auto;
+width: auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    animation-name: btnAnim;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes btnAnim {
+    from {background-color: #333;}
+    to {background-color: #444;}
+  }
+
+
+footer {
+    display: flex;
+    margin-top: 2px;
+    background-color: #ccc;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+footer p {
+margin: 0;
+padding: 0;
+font-size: 14px;
+}
+
+/* Gradients /
+main {
+background-image: linear-gradient(to bottom right, #f7b733, #393E46);
+padding-bottom: 100px;
+}
+
+
+
+/ Animation */
+table td img {
+transition: all 0.2s ease-in-out;
+}
+
+table td img:hover {
+transform: scale(1.1);
+}
